@@ -26,7 +26,7 @@ public class Bai11 {
             System.out.print(arr[i]+ " ");
         }
         
-        
+        // tao 2 lop pasttime , tao
 
     }
     
