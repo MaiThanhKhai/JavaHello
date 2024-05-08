@@ -1,14 +1,14 @@
 package CongTy;
-
+import java.util.*;
 public class NhanVienFullTime extends NhanVien {
     private int ngayLamViec;
     private int loaiChucVu;
     
     public NhanVienFullTime(String ten){
-        this.ten= ten;
+        super(ten);
     }
     public NhanVienFullTime(String ten, int ngayLamViec){
-        this.ten= ten;
+        super(ten);
         this.ngayLamViec = ngayLamViec;
     }
     public void setLoaichucvu(int loaiChucVu){

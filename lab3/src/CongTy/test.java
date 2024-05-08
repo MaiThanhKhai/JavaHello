@@ -1,5 +1,5 @@
 package CongTy;
-
+import java.util.*;
 public class test {
     public static void main(String[] args) {
         // NhanVienFullTime sep = new NhanVienFullTime(" Nguyen Van Huu");

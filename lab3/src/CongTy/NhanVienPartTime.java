@@ -1,5 +1,5 @@
 package CongTy;
-//import util.LuongCoDinh;
+import java.util.*;
 public class NhanVienPartTime extends NhanVien {
     private int gioLamViec;
 

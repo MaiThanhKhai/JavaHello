@@ -1,5 +1,5 @@
 package CongTy;
-
+import java.util.*;
 public class NhanVien {
     protected String ten;
     protected long luong;
@@ -12,6 +12,8 @@ public class NhanVien {
         return "";
     }
     public void xuatThongTin(){
-        System.out.println( ten+ " co luong la: "+ luong);
+        System.out.println("Ten nhan vien: " + ten);
+        System.out.println("Loai nhan vien: " + loaiNhanVien());
+        System.out.println("Luong: " + luong + " VND");
     }
 }
