@@ -1,4 +1,4 @@
-package Persin;
+package ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -41,11 +41,7 @@ public class ArrayListDemo {
             System.out.println("nhap phan tu chi dinh");
             int index= sc.nextInt();
             this.arrList.remove(index);
-        }
-        
-        
-      
-        
+        }    
     }
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in); 
@@ -70,10 +66,4 @@ public class ArrayListDemo {
         }
         
     }
-    
-   
-    
-
-
-
 }

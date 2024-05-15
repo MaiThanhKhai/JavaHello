@@ -5,8 +5,9 @@ public class NhanVien {
     protected long luong;
 
     public NhanVien(){};
-    public NhanVien(String ten){
+    public NhanVien(String ten, long luong){
         this.ten= ten ;
+        this.luong=luong;
     }
     public String loaiNhanVien(){
         return "";
@@ -15,5 +16,5 @@ public class NhanVien {
         System.out.println("Ten nhan vien: " + ten);
         System.out.println("Loai nhan vien: " + loaiNhanVien());
         System.out.println("Luong: " + luong + " VND");
-    }
+    } 
 }

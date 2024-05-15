@@ -1,4 +1,4 @@
-package Persin;
+package ArrayList;
 
 import java.util.Scanner;
 

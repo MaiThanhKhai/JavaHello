@@ -4,12 +4,11 @@ public class NhanVienFullTime extends NhanVien {
     private int ngayLamViec;
     private int loaiChucVu;
     
-    public NhanVienFullTime(String ten){
-        super(ten);
+    public NhanVienFullTime(){
     }
-    public NhanVienFullTime(String ten, int ngayLamViec){
-        super(ten);
+    public NhanVienFullTime( int ngayLamViec, int loaiChucVu){
         this.ngayLamViec = ngayLamViec;
+        this.loaiChucVu= loaiChucVu;
     }
     public void setLoaichucvu(int loaiChucVu){
         this.loaiChucVu = loaiChucVu;
