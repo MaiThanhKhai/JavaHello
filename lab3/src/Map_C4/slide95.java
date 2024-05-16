@@ -10,9 +10,9 @@ public class slide95 {
         lhm.put(101,"Dia" );
         lhm.put(102,"Chat" );
 
-        // for(Map.Entry <Integer, String> m:  lhm.entrySet()){
-        //     System.out.println(m.getKey()+" "+ m.getValue());
-        // }
+        for(Map.Entry <Integer, String> m:  lhm.entrySet()){
+            System.out.println(m.getKey()+" "+ m.getValue());
+        }
         System.out.println("Truoc khi xoa" +lhm);
         lhm.remove(101);
         System.out.println("Sau khi xoa: "+ lhm);
