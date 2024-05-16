@@ -22,12 +22,11 @@ public class Bai1 {
         System.out.println("Gia tri lon nhat trong Arraylist: " + max);
 
 
-        //ArrayList<Integer> b = new ArrayList<>();
+        ArrayList<Integer> b = new ArrayList<>();
         System.out.println("Nhap 1 so nguyen de xoa:  ");
         int n1 = sc.nextInt();
-        //b.add(n1);
-        //a.removeAll(b);
-        a.remove(n1);
+        b.add(n1);
+        a.remove(b);
 
         Collections.sort(a);
         for (Integer j: a) {
