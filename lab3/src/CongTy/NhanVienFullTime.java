@@ -1,5 +1,5 @@
 package CongTy;
-import java.util.*;
+import java.util.*;;
 public class NhanVienFullTime extends NhanVien {
     private int ngayLamViec;
     private int loaiChucVu;
